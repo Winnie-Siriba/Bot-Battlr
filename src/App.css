@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/*Styling of the app*/
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.bot-army, .bot-collection {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bot-card {
+  background: #f0f4f8;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  cursor: pointer;
+  position: relative;
+  overflow-wrap: break-word;
+}
+
+.bot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.discharge-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+}
