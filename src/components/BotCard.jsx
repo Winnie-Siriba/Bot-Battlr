@@ -13,7 +13,7 @@ function BotCard({ bot, onClick, onDischarge, showDischarge }) {
           e.stopPropagation();
           onDischarge();
         }}>
-          ❌
+          X
         </button>
       )}
     </div>

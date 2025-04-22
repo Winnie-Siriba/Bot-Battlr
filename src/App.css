@@ -82,4 +82,10 @@
   font-weight: bold;
   cursor: pointer;
   padding: 0.3rem 0.6rem;
+  height: 30px;
+}
+
+.bot-collection{
+  border-top: 2px solid black;
+  padding-top: 20px;
 }
